@@ -1,0 +1,7 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}

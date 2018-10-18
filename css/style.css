@@ -1,0 +1,84 @@
+
+
+header {
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: center; 
+  align-items: center;
+  align-content: space-between;
+}
+
+.logo {
+  width: 125px;
+  margin: 5px 30px 5px 5px;
+  order: 1;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap; 
+  justify-content: space-around; 
+  align-items: center;
+  margin: 0;
+  padding: 5px;
+  order: 4;
+  width: 80%;
+  border-top: 1px solid black;
+}
+
+
+nav a {
+  text-decoration: none;
+}
+
+.cart {
+  width: 50px;
+  margin: 5px;
+  order: 3;
+}
+
+.hero {
+  height: 300px;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+  background-size: cover, contain, cover;
+  background-position: center, center 30px, center;
+  background-repeat: no-repeat;
+}
+
+
+.product { 
+  display: flex; 
+  flex-flow: column nowrap;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.view-product {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe {
+  display: flex; 
+  flex-flow: column nowrap; 
+  justify-content: center; 
+  align-items: center;
+  padding: 50px;
+  background: url(../images/wave-bkgd.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 30px;
+  justify-content: space-between;
+}
