@@ -1,0 +1,42 @@
+@media all and (min-width: 600px) {
+  header {
+    flex-wrap: nowrap;
+  }
+  .logo {
+    margin: 0;
+    width: 15%;
+  }
+  nav {
+    order: 2;
+    width: 70%;
+  }
+  nav ul {
+    border-top: 0;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+
+  .products {
+    width: 200%;
+  }
+
+}
+
+@media all and (min-width: 1240px) {
+  .category {
+    width: 1240px;
+    height: 500px;
+  }
+  .category .flexTwo {
+    flex-flow: row nowrap;
+  }
+  .category-one, .category-six {
+    width: 50%;
+  }
+  .category-two, .category-three, .category-four, .category-five {
+    width: 50%;
+  }
+  .products {
+    width: 100%;
+  }
+}
