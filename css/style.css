@@ -1,4 +1,19 @@
+html {  
+  font-size: 14px;
+}
 
+body {
+  font-family: "Raleway Light";
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
+}
 
 header {
   display: flex;
@@ -41,22 +56,43 @@ nav a {
   height: 500px;
   background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
   background-size: cover, contain, cover;
-  background-position: center, center 30px, center;
+  background-position: center, center 70px, center;
   background-repeat: no-repeat;
-}
-
-.category-heading {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
   align-items: center;
-  padding: 30px;
+  justify-content: center;
+}
+.hero-heading {
+  text-align: center;
+}
+
+.hero-heading p {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Raleway Medium";
+  text-shadow: 3px 3px 10px grey;
+  margin-bottom: 25px;
+}
+
+.hero-heading h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: "Playfair Display light";
+  text-shadow: 3px 3px 10px grey;
+}
+
+.year {
+  font-family: "Playfair Display medium";
+  font-size:3rem;
+  text-shadow: 3px 3px 10px grey;
 }
 
 .product { 
   display: flex; 
   flex-flow: column nowrap;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .carousel {

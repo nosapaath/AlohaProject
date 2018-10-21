@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" href="css/category.css">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="/css/category.css">
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/media-queries.css">
   <title>AlohaCo</title>
 </head>
 
@@ -23,10 +24,10 @@
         <img class="logo" src="/images/aloha-logo.svg" alt="">
       </a>
       <nav>
-        <div><a href="">About</a></div>
-        <div><a href="">Shop</a></div>
-        <div><a href="">Featured</a></div>
-        <div><a href="">Updates</a></div>
+        <div><a class="upperCase" href="">About</a></div>
+        <div><a class="upperCase" href="">Shop</a></div>
+        <div><a class="upperCase" href="">Featured</a></div>
+        <div><a class="upperCase" href="">Updates</a></div>
       </nav>
       <a href="#">
         <img class="cart" src="/images/cart-icon.svg" alt="">
@@ -35,49 +36,50 @@
 
     <div class="hero">
       <div class="hero-heading">
-        <p>new collection</p>
-        <p>Spring/Summer 2016</p>
+        <p class="upperCase">new collection</p>
+        <h1>Spring/ Summer <br><span class="year">201</span>6</h1>
       </div>
     </div>
 
     <div class="category-heading">
-      <h1>Hand-Crafted <span class="bold">Styles</span></h1>
+      <h1 class="headingLeft">Hand-Crafted <span class="headingRight">Styles</span></h1>
       <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our cuttent selection of products
         or sign-up for updates below.</p>
     </div>
 
-    <!--
-  NEED TO FIGURE OUT THE BOXES
--->
     <div class="boxes">
       <div class="half">
         <div class="mens">
-          <p>men's</p>
+              <p class="upperCase boxText">Mens</p>
+              <img class="lowerBrightnessFilter" src="/images/mens-category.jpg" alt="" width="100%">
         </div>
         <div class="trends">
-          <p>trends</p>
+            <p class="upperCase boxText">Trends</p>
+            <img class="lowerBrightnessFilter"  src="/images/trends-category.jpg" alt="" width="100%">
         </div>
         <div class="glasses">
-          <p>glasses</p>
+            <p class="upperCase boxText">Glasses</p>
+            <img class="lowerBrightnessFilter"  src="/images/glasses-category.jpg" alt=""  width="100%">
         </div>
       </div>
       <div class="half">
         <div class="sale">
-          <p>sale</p>
+            <p class="upperCase boxText">Sale</p>
+            <img class="lowerBrightnessFilter"  src="/images/sale-category.jpg" alt=""  width="100%">
         </div>
         <div class="bags">
-          <p>bags</p>
+            <p class="upperCase boxText">Bags</p>
+            <img class="lowerBrightnessFilter"  src="/images/bags-category.jpg" alt=""  width="100%">
         </div>
         <div class="womens">
-          <p>womens</p>
+            <p class="upperCase boxText">Womens</p>
+            <img class="lowerBrightnessFilter"  src="/images/womens-category.jpg" alt=""  width="100%">
         </div>
       </div>
     </div>
 
     <div class="product">
-      <div class="carousel-heading">
-        <h1>Most-Loved <span class="bold">Products</span></h1>
-      </div>
+      <h1 class="headingLeft">Most-Loved <span class="headingRight">Products</span></h1>
       <div class="carousel">
         <div class="view-product">
           <img src="images/stretch-knit-dress.jpg" alt="">

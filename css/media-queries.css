@@ -1,4 +1,7 @@
 @media all and (min-width: 600px) {
+  html{
+    font-size:16px;
+  }
   header {
     flex-wrap: nowrap;
   }
@@ -23,6 +26,9 @@
 }
 
 @media all and (min-width: 1240px) {
+  html{
+    font-size:16px;
+  }
   .category {
     width: 1240px;
     height: 500px;

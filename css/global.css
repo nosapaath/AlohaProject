@@ -1,7 +1,17 @@
-.uppercase {
+.upperCase {
   text-transform: uppercase;
 }
 
 li {
   list-style-type: none;
+}
+
+.headingLeft {
+  font-family: "Playfair Display Italic";
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.headingRight {
+  font-family: "Playfair Display Bold";
 }
