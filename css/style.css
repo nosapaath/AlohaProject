@@ -1,5 +1,11 @@
 html {  
   font-size: 14px;
+  --body-color: #2d2d2d;
+  --lightgrey: #969696;
+  --orange-brand: #e2574c;
+  --link-hover: #b64036;
+  --grey-border: #d7d7d7;
+  --footer-background: #242424;
 }
 
 body {
@@ -109,20 +115,45 @@ nav a {
 }
 
 .subscribe {
-  display: flex; 
-  flex-flow: column nowrap; 
-  justify-content: center; 
-  align-items: center;
-  padding: 50px;
+  display: grid; 
+  grid-template-columns: 1fr;
+  height: 150px;
+  padding: 100px;
+  text-align: center;
   background: url(../images/wave-bkgd.jpg);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+  color: white;
 }
 
+.subscribe-blob {
+  display: flex;
+  flex-direction: column;
+}
+
+
 footer {
+  padding: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--footer-background);
+  color: white;
+
+}
+
+.address {
+  color: var(--lightgrey);
+}
+
+.socialMedia {
+  margin: 20px 0px 40px 0;
   display: flex;
   flex-flow: row nowrap;
-  padding: 30px;
   justify-content: space-between;
+  align-items: center;
+  width: 30%;
 }

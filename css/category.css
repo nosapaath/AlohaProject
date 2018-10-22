@@ -12,7 +12,8 @@
 .boxes {
   width:100%;
   max-width: 1240px;
-  margin: 0 auto;
+  margin: 0 3px;
+  height: 1200px;
   display: block;
   margin-bottom: 60px;
 }
@@ -20,41 +21,68 @@
 .half {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  margin-top: 10px;
+  grid-gap: 5px;
+  margin-top: 5px;
   height: 50%;
+}
+
+.half div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .boxText {
   font-size: 2rem;
+  color: white;
+  font-family: "Raleway Medium";
 }
 
 .mens {
+  background: url(/images/mens-category.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
   grid-column-start: 1; 
   grid-column-end: 5; 
 }
 
 .trends {
+  background: url(/images/trends-category.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   grid-column-start: 1; 
   grid-column-end: 3;
 }
 
 .glasses {
+  background: url(/images/glasses-category.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   grid-column-start: 3; 
   grid-column-end: 5;
 }
 
 .sale {
+  background: url(/images/sale-category.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   grid-column-start: 1; 
   grid-column-end: 3; 
 }
 
 .bags {
+  background: url(/images/bags-category.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   grid-column-start: 3; 
   grid-column-end: 5; 
 }
 
 .womens {
+  background: url(/images/womens-category.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   grid-column-start: 1; 
   grid-column-end: 5;
   
