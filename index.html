@@ -29,7 +29,7 @@
         <div><a class="upperCase" href="">Featured</a></div>
         <div><a class="upperCase" href="">Updates</a></div>
       </nav>
-      <a href="https://www.google.ca">
+      <a class="cart-wrapper" href="https://www.google.ca">
         <img class="cart" src="/images/cart-icon.svg" alt="">
       </a>
     </header>
@@ -37,12 +37,16 @@
     <div class="hero">
       <div class="hero-heading">
         <p class="upperCase">new collection</p>
-        <h1>Spring/ Summer <br><span class="year">201</span>6</h1>
+        <div class="hero-title">
+            <h1>Spring/ Summer</h1>
+            <h1><span class="year">201</span>6</h1>
+        </div>
+        
       </div>
     </div>
 
-    <div class="category-heading">
-      <h1 class="headingLeft">Hand-Crafted <span class="headingRight">Styles</span></h1>
+    <div class="banner">
+      <h1 class="headingLeft">Hand-Crafted <span class="headingRight" style="white-space: nowrap;" >Styles</span></h1>
       <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our cuttent selection of products
         or sign-up for updates below.</p>
     </div>
@@ -50,7 +54,7 @@
     <div class="boxes">
       <div class="half">
         <div class="mens">
-              <p class="upperCase boxText">Mens</p>
+              <p class="upperCase boxText">Men's</p>
               <!-- <img class="lowerBrightnessFilter" src="/images/mens-category.jpg" alt="Mens" width="100%" title="MENS"> -->
         </div>
         <div class="trends">
@@ -124,15 +128,17 @@
     <div class="subscribe">
       <!--bottom and top margin (white)-->
       <div class="subscribe-heading">
-        <h1>Sign-up <span class="bold">Updates</span></h1>
+          <h1 class="headingLeft">Sign-up <span class="headingRight">Updates</span></h1>
       </div>
       <div class="subscribe-blob">
         <p>Stay updated on our latest product releases, be the first to find out <span>about upcoming sales, and get
             free style tips from our blog </span><span>Unsubscribe at any time.</span></p>
       </div>
-      <div class="subscribe-form">
-        <input type="text" placeholder="Your Email" name="email">
-        <button type="submit" class="subscribe-btn">Subscribe</button>
+      <div class="button-wrapper">
+        <div class="subscribe-form">
+          <input type="text" placeholder="Your Email" name="email">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </div>
       </div>
     </div>
 

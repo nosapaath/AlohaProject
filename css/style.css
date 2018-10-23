@@ -26,6 +26,7 @@ header {
   flex-flow: row wrap; 
   justify-content: space-between; 
   align-items: center;
+  background: white;
 }
 
 .logo {
@@ -43,19 +44,19 @@ nav {
   padding: 5px;
   order: 4;
   width: 80%;
-  border-top: 1px solid black;
+  border-top: 1px solid var(--lightgrey);
   flex-grow: 1;
 }
 
 
 nav a {
   text-decoration: none;
+  color: var(--orange-brand);
 }
 
 .cart {
   width: 50px;
   margin: 5px;
-  order: 3;
 }
 
 .hero {
@@ -81,6 +82,12 @@ nav a {
   margin-bottom: 25px;
 }
 
+.hero-title {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
 .hero-heading h1 {
   font-size: 4rem;
   color: white;
@@ -94,17 +101,31 @@ nav a {
   text-shadow: 3px 3px 10px grey;
 }
 
+.banner {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  text-align: center;
+  line-height: 2rem;
+}
+
 .product { 
   display: flex; 
   flex-flow: column nowrap;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 30px;
+  max-width: 1240px;
+  height: auto;
 }
 
 .carousel {
   display: flex;
   flex-flow: row nowrap;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .view-product {
@@ -132,6 +153,31 @@ nav a {
   flex-direction: column;
 }
 
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px; 
+  padding: 0px;
+  width: auto;
+}
+
+.subscribe-form {
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row nowrap; 
+  align-content: space-between;
+  padding: 5px 5px 5px 5px; 
+}
+
+.subscribe-btn {
+  background: var(--orange-brand);
+  border-radius: 10px;
+  border: inherit;
+  color: white;
+  padding: 0 10px 0 10px
+}
 
 footer {
   padding: 30px;
