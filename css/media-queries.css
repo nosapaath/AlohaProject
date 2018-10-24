@@ -1,3 +1,9 @@
+@media all and (min-width: 500px) {
+  .boxes{
+    height:1200px;
+  }
+}
+
 @media all and (min-width: 600px) {
   html{
     font-size:16px;
@@ -77,6 +83,14 @@
 
 @media all and (min-width: 1000px) {
 
+    .banner p {
+      margin-left: 320px;
+      margin-right:320px;
+    }
+
+    .boxes {
+      height: 500px;
+    }
 }
 
 @media all and (min-width: 1240px) {

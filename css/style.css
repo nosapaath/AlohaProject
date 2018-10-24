@@ -106,7 +106,7 @@ nav a {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 60px 10px ;
   text-align: center;
   line-height: 2rem;
 }
