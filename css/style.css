@@ -146,6 +146,7 @@ nav a {
   background-position: bottom;
   background-repeat: no-repeat;
   color: white;
+  margin-bottom: 10px;
 }
 
 .subscribe-blob {
@@ -157,9 +158,8 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px; 
+  margin: 0px auto; 
   padding: 0px;
-  width: auto;
 }
 
 .subscribe-form {
@@ -167,8 +167,15 @@ nav a {
   border-radius: 20px;
   display: flex;
   flex-flow: row nowrap; 
-  align-content: space-between;
-  padding: 5px 5px 5px 5px; 
+  justify-content: space-between;
+  padding: 2px;
+  width: 250px;
+}
+
+.emailInput {
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 20px;
 }
 
 .subscribe-btn {
@@ -176,7 +183,7 @@ nav a {
   border-radius: 10px;
   border: inherit;
   color: white;
-  padding: 0 10px 0 10px
+  padding: 5px 15px 5px 15px;
 }
 
 footer {
@@ -196,10 +203,14 @@ footer {
 }
 
 .socialMedia {
-  margin: 20px 0px 40px 0;
+  margin: 30px 0px 40px 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 50%;
+}
+
+.socialName {
+  display: none;
 }
