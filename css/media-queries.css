@@ -2,6 +2,9 @@
   .boxes{
     height:1200px;
   }
+  .subscribe-form {
+    width: 357px;
+  }
 }
 
 @media all and (min-width: 600px) {
@@ -100,7 +103,7 @@
     .boxText {
       font-size: 2rem;
     }
-
+    
     .subscribe-blob {
       width: 700px;
       margin: 0 auto;
@@ -153,6 +156,10 @@
     display: block;
   }
 
+  .subscribe {
+    background-size:cover;
+    background-position: bottom;
+  }
 
 }
 

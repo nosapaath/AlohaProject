@@ -154,31 +154,36 @@ nav a:hover {
 }
 
 .subscribe {
-  display: grid; 
-  grid-template-columns: 1fr;
-  height: 350px;
-  padding: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 20px;
   text-align: center;
   background: url(../images/wave-bkgd.jpg);
   background-attachment: relative;
-  background-position: center -500px;
+  background-position: bottom;
   background-repeat: no-repeat;
   color: white;
-  margin-bottom: 10px;
 }
 
 .subscribe-blob {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+  padding: 0 10px 0 10px;
 }
 
 .button-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px auto; 
   padding: 0px;
+  height: 50px;
 }
 
 .subscribe-form {
@@ -187,22 +192,28 @@ nav a:hover {
   display: flex;
   flex-flow: row nowrap; 
   justify-content: space-between;
-  padding: 2px;
-  width: 250px;
+  width: 80%;
+  height: 40px;
 }
 
 .emailInput {
   margin-left: 10px;
+  padding-left: 20px;
   border: 0px;
   border-radius: 20px;
+  width: 100%;
+  font-size: 1.2rem;
 }
 
 .subscribe-btn {
   background: var(--orange-brand);
-  border-radius: 10px;
+  border-radius: 20px;
   border: inherit;
   color: white;
   padding: 5px 15px 5px 15px;
+  width: 50%;
+  margin: 3px;
+  font-size: 1.2rem;
 }
 
 footer {
