@@ -58,9 +58,31 @@ nav a:hover {
   color: var(--link-hover);
 }
 
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 10px;
+}
+
 .cart {
   width: 50px;
   margin: 5px;
+}
+
+#cartCount {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: -20px;
+  background:var(--orange-brand);
+  color: white;
+  font-style: none;
+  top: 0;
+  border: 2px solid white;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
@@ -151,6 +173,11 @@ nav a:hover {
 .type {
   font-size: .8rem;
   color: var(--lightgrey); 
+  margin-bottom: 10px;
+}
+
+.view-product button {
+  width: 200px;
 }
 
 .subscribe {
@@ -257,7 +284,7 @@ footer {
 
 .gallery-cell {
   width: 66%;
-  height: 400px;
+  height: 450px;
   margin-right: 10px;
   counter-increment: gallery-cell;
 }
