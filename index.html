@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/media-queries.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <title>AlohaCo</title>
 </head>
 
@@ -21,7 +22,7 @@
   <div class="main">
     <header>
       <a href="#">
-        <img class="logo" src="/images/aloha-logo.svg" alt="">
+        <img id="add-to-cart" class="logo" src="/images/aloha-logo.svg" alt="">
       </a>
       <nav>
         <div><a class="upperCase" href="">About</a></div>
@@ -31,6 +32,7 @@
       </nav>
       <a class="cart-wrapper" href="https://www.google.ca">
         <img class="cart" src="/images/cart-icon.svg" alt="">
+        <span id="cartCount"> </span>
       </a>
     </header>
 
@@ -85,44 +87,45 @@
 
     <div class="product">
       <h1 class="headingLeft">Most-Loved <span class="headingRight">Products</span></h1>
-      <div class="carousel">
-        <div class="view-product">
+    </div>  
+    <div class="gallery js-flickity"
+    data-flickity-options='{ "wrapAround": true }'>
+        <div class="view-product gallery-cell">
           <img src="images/stretch-knit-dress.jpg" alt="">
-          <div class="type">Dress</div>
+          <div class="type upperCase">Dress</div>
           <div class="product-name">Stretch Knit Dress</div>
-          <div class="price">$169.00</div>
+          <div class="type">$169.00</div>
         </div>
-        <div class="view-product">
+        <div class="view-product gallery-cell">
           <img src="images/cotton-blue-shirt.jpg" alt="">
-          <div class="type">Shirt</div>
+          <div class="type upperCase">Shirt</div>
           <div class="product-name">Cotton Blue Shirt</div>
-          <div class="price">$89.00</div>
+          <div class="type">$89.00</div>
         </div>
-        <div class="view-product">
+        <div class="view-product gallery-cell">
           <img src="images/checked-stretch-dress.jpg" alt="">
-          <div class="type">Dress</div>
+          <div class="type upperCase">Dress</div>
           <div class="product-name">Checked Stretch Dress</div>
-          <div class="price">$129.00</div>
+          <div class="type">$129.00</div>
         </div>
-        <div class="view-product">
+        <div class="view-product gallery-cell">
           <img src="images/blue-hipster-backpack.jpg" alt="">
-          <div class="type">Bags</div>
+          <div class="type upperCase">Bags</div>
           <div class="product-name">Blue Hipster Backpack</div>
-          <div class="price">$69.00</div>
+          <div class="type">$69.00</div>
         </div>
-        <div class="view-product">
+        <div class="view-product gallery-cell">
           <img src="images/demin-overall-shorts.jpg" alt="">
-          <div class="type">Denim</div>
+          <div class="type upperCase">Denim</div>
           <div class="product-name">Denim Overall Shorts</div>
-          <div class="price">$89.00</div>
+          <div class="type">$89.00</div>
         </div>
-        <div class="view-product">
+        <div class="view-product gallery-cell">
           <img src="images/pink-dotted-dress.jpg" alt="">
-          <div class="type">Dress</div>
+          <div class="type upperCase">Dress</div>
           <div class="product-name">Pink Dotted Dress</div>
-          <div class="price">$99.00</div>
+          <div class="type">$99.00</div>
         </div>
-      </div>
     </div>
 
     <div class="subscribe">
@@ -184,6 +187,7 @@
 
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/aloha.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

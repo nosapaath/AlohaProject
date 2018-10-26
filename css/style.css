@@ -54,6 +54,10 @@ nav a {
   color: var(--orange-brand);
 }
 
+nav a:hover {
+  color: var(--link-hover);
+}
+
 .cart {
   width: 50px;
   margin: 5px;
@@ -118,15 +122,16 @@ nav a {
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 1240px;
-  height: auto;
 }
 
-.carousel {
+/* .carousel {
   display: flex;
   flex-flow: row nowrap;
   overflow-x: scroll;
   overflow-y: hidden;
-}
+  height: 100%;
+  margin-top: 20px;
+} */
 
 .view-product {
   display: flex;
@@ -135,15 +140,28 @@ nav a {
   align-items: center;
 }
 
+.product-name {
+  color: var(--orange-brand);
+  margin: 10px 0 10px 0;
+  font-family: "Playfair Display";
+  font-weight: 100;
+  font-size: 1.4rem;
+}
+
+.type {
+  font-size: .8rem;
+  color: var(--lightgrey); 
+}
+
 .subscribe {
   display: grid; 
   grid-template-columns: 1fr;
-  height: 150px;
-  padding: 100px;
+  height: 350px;
+  padding: 50px;
   text-align: center;
   background: url(../images/wave-bkgd.jpg);
-  background-size: cover;
-  background-position: bottom;
+  background-attachment: relative;
+  background-position: center -500px;
   background-repeat: no-repeat;
   color: white;
   margin-bottom: 10px;
@@ -152,6 +170,7 @@ nav a {
 .subscribe-blob {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .button-wrapper {
@@ -214,3 +233,30 @@ footer {
 .socialName {
   display: none;
 }
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: white;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+

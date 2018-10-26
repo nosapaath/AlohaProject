@@ -45,6 +45,11 @@
   .boxes {
     height: 300px;
   }
+
+  .boxText {
+    font-size:1.4rem;
+  }
+
   .half { 
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -91,6 +96,16 @@
     .boxes {
       height: 500px;
     }
+
+    .boxText {
+      font-size: 2rem;
+    }
+
+    .subscribe-blob {
+      width: 700px;
+      margin: 0 auto;
+
+    }
 }
 
 @media all and (min-width: 1240px) {
@@ -109,7 +124,7 @@
   footer {
     flex-flow: row nowrap;
     justify-content: space-between;
-    height: 200px;
+    height: 300px;
   }
 
   .left-foot {
@@ -137,6 +152,7 @@
     text-align: left;
     display: block;
   }
+
 
 }
 
