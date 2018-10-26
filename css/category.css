@@ -36,7 +36,7 @@
 }
 
 .mens {
-  background-image: url(/images/mens-category.jpg);
+  background-image: url(../images/mens-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   grid-column-start: 1; 
@@ -45,7 +45,7 @@
 }
 
 .trends {
-  background-image: url(/images/trends-category.jpg);
+  background-image: url(../images/trends-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   grid-column-start: 1; 
@@ -53,7 +53,7 @@
 }
 
 .glasses {
-  background-image: url(/images/glasses-category.jpg);
+  background-image: url(../images/glasses-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   grid-column-start: 3; 
@@ -61,7 +61,7 @@
 }
 
 .sale {
-  background-image: url(/images/sale-category.jpg);
+  background-image: url(../images/sale-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   grid-column-start: 1; 
@@ -69,7 +69,7 @@
 }
 
 .bags {
-  background-image: url(/images/bags-category.jpg);
+  background-image: url(../images/bags-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   grid-column-start: 3; 
@@ -77,7 +77,7 @@
 }
 
 .womens {
-  background-image: url(/images/womens-category.jpg);
+  background-image: url(../images/womens-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   grid-column-start: 1; 
