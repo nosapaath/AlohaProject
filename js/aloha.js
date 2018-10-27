@@ -1,25 +1,10 @@
 $(function() {
   $("#cartCount").hide();
-  
-
-  $("#shop").on("click", function(event) {
-    event.preventDefault();
-    $("html, body").animate({ scrollTop: $(".boxes").offset().top }, 1000);
-  });
-
-  $("#featured").on("click", function(event) {
-    event.preventDefault();
-    $("html, body").animate({ scrollTop: $(".product").offset().top }, 1000);
-  });
-
-  $("#updates").on("click", function(event) {
-    event.preventDefault();
-    $("html, body").animate({ scrollTop: $(".subscribe").offset().top }, 1000);
-  });
-
-  $("#about").on("click", function(event) {
-    event.preventDefault();
-    $("html, body").animate({ scrollTop: $(".banner").offset().top }, 1000);
+   
+  $("a").on("click", function(event){
+    var myClass = $(this).parent().attr('class');
+    console.log(myClass);
+    $("html, body").animate({ scrollTop: $('#' + myClass).offset().top-70 }, 1000);
   });
 
   $(".addToCart").on("click", function(event) {
