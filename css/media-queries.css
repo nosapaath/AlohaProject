@@ -13,8 +13,10 @@
   }
   header {
     display: grid; 
-    grid-template-columns: 100px 1fr 50px;
+    grid-template-columns: 100px 1fr 100px;
     align-content: center;
+    padding: 3px;
+    height: 70px;
   }
   .logo {
     margin: 0 0 0 5px;
@@ -30,11 +32,22 @@
   }
 
   .cart-wrapper {
+    height: 70px;
     order: 100;
+    display: flex;
+    position: relative;
   }
 
   .cart {
-    width: 70%;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+
+  #cartCount {
+    width: 25px;
+    height: 25px;
   }
 
   .year {
@@ -90,6 +103,7 @@
 }
 
 @media all and (min-width: 1000px) {
+
 
     .banner p {
       margin-left: 320px;
