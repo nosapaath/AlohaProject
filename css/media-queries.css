@@ -1,6 +1,6 @@
 @media all and (min-width: 500px) {
-  .boxes{
-    height:1200px;
+  .boxes {
+    height: 1200px;
   }
   .subscribe-form {
     width: 357px;
@@ -8,15 +8,18 @@
 }
 
 @media all and (min-width: 600px) {
-  html{
-    font-size:16px;
+  html {
+    font-size: 16px;
   }
   header {
-    display: grid; 
+    display: grid;
     grid-template-columns: 100px 1fr 100px;
     align-content: center;
     padding: 3px;
     height: 70px;
+  }
+  .hero {
+    margin-top: 70px;
   }
   .logo {
     margin: 0 0 0 5px;
@@ -63,85 +66,85 @@
   }
 
   .boxText {
-    font-size:1.4rem;
+    font-size: 1.4rem;
   }
 
-  .half { 
+  .half {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .mens {
-    grid-column-start: 1; 
-    grid-column-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 
   .trends {
-    grid-column-start:3; 
+    grid-column-start: 3;
     grid-column-end: 4;
   }
 
   .glasses {
-    grid-column-start:4; 
+    grid-column-start: 4;
     grid-column-end: 5;
   }
 
   .sale {
-    grid-column-start:1; 
+    grid-column-start: 1;
     grid-column-end: 2;
   }
 
   .bags {
-    grid-column-start:2; 
+    grid-column-start: 2;
     grid-column-end: 3;
   }
 
   .womens {
-    grid-column-start:3; 
+    grid-column-start: 3;
     grid-column-end: 5;
-  }
-
-}
-
-@media all and (min-width: 1000px) {
-
-
-    .banner p {
-      margin-left: 320px;
-      margin-right:320px;
-    }
-
-    .boxes {
-      height: 500px;
-    }
-
-    .boxText {
-      font-size: 2rem;
-    }
-    
-    .subscribe-blob {
-      width: 700px;
-      margin: 0 auto;
-
-    }
-}
-
-@media all and (min-width: 1240px) {
-  html{
-    font-size:16px;
-  }
-
-  .hero-title {
-    flex-flow: row nowrap;
-  }
-  
-  .boxes {
-    height: 620px;
   }
 
   footer {
     flex-flow: row nowrap;
     justify-content: space-between;
-    height: 300px;
+    height: 200px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .carousel-cell {
+    width: 25%;
+  }
+
+  .banner p {
+    margin-left: 320px;
+    margin-right: 320px;
+  }
+
+  .boxes {
+    height: 500px;
+  }
+
+  .boxText {
+    font-size: 2rem;
+  }
+
+  .subscribe-blob {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1240px) {
+  html {
+    font-size: 16px;
+  }
+
+  .hero-title {
+    flex-flow: row nowrap;
+  }
+
+  .boxes {
+    height: 620px;
   }
 
   .left-foot {
@@ -149,7 +152,7 @@
     height: 80%;
     line-height: 1.4rem;
   }
-  
+
   .socialMedia {
     display: flex;
     flex-flow: column nowrap;
@@ -171,9 +174,7 @@
   }
 
   .subscribe {
-    background-size:cover;
+    background-size: cover;
     background-position: bottom;
   }
-
 }
-
