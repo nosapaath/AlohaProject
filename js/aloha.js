@@ -26,7 +26,7 @@ $(function() {
         .siblings()
         .val();
       alert(
-        "Thank you for subscribing, you will receive weekly newsletter at: " +
+        "Thanks for subscribing! " +
           email
       );
     }
