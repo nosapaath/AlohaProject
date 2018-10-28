@@ -142,8 +142,9 @@ nav a:hover {
 
 .product { 
   display: flex; 
-  flex-flow: column nowrap;
-  text-align: center;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 1240px;
