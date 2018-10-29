@@ -70,6 +70,7 @@ nav a:hover {
 
 .cart {
   width: 45px;
+  padding-right: 10px;
 }
 
 #cartCount {
@@ -78,7 +79,7 @@ nav a:hover {
   height: 20px;
   position: absolute;
   top: 0px; 
-  right: 0px;
+  right: 5px;
   background:var(--orange-brand);
   color: white;
   border: 2px solid white;
@@ -138,6 +139,11 @@ nav a:hover {
   padding: 60px 10px ;
   text-align: center;
   line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.banner p {
+  margin-top: 10px;
 }
 
 .product { 
@@ -149,15 +155,6 @@ nav a:hover {
   margin-bottom: 30px;
   max-width: 1240px;
 }
-
-/* .carousel {
-  display: flex;
-  flex-flow: row nowrap;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  height: 100%;
-  margin-top: 20px;
-} */
 
 .view-product {
   display: flex;
@@ -175,7 +172,8 @@ nav a:hover {
 }
 
 .type {
-  font-size: .8rem;
+  font-size: 1rem;
+  font-weight: 800;
   color: var(--lightgrey); 
   margin-bottom: 10px;
 }
@@ -193,7 +191,7 @@ nav a:hover {
   margin-bottom: 10px;
   padding-top: 20px;
   text-align: center;
-  background: url(../images/wave-bkgd.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/wave-bkgd.jpg);
   background-attachment: relative;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -203,8 +201,10 @@ nav a:hover {
 .subscribe-blob {
   display: flex;
   flex-direction: column;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 20px var(--grey-border);
+  line-height: 2rem;
   margin-bottom: 10px;
   padding: 0 10px 0 10px;
 }
@@ -248,6 +248,7 @@ nav a:hover {
 }
 
 footer {
+  font-family: "Playfair Display";
   padding: 30px;
   display: flex;
   flex-flow: column nowrap;
@@ -256,6 +257,7 @@ footer {
   text-align: center;
   background: var(--footer-background);
   color: white;
+  font-size: 1.1rem;
 
 }
 
@@ -274,7 +276,7 @@ footer {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 35%;
 }
 
 .socialName {

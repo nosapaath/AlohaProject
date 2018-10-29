@@ -1,6 +1,5 @@
-
 .boxes {
-  width:100%;
+  width: 100%;
   max-width: 1240px;
   height: 850px;
   display: block;
@@ -10,12 +9,12 @@
   align-content: center;
 }
 
-.singleBox { 
+.singleBox {
   background-position: center;
 }
 
 .half {
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   margin-top: 10px;
@@ -36,56 +35,59 @@
 }
 
 .mens {
-  background-image: url(../images/mens-category.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/mens-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 1; 
+  grid-column-start: 1;
   grid-column-end: 5;
-  
 }
 
 .trends {
-  background-image: url(../images/trends-category.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/trends-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 1; 
+  grid-column-start: 1;
   grid-column-end: 3;
 }
 
 .glasses {
-  background-image: url(../images/glasses-category.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/glasses-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 3; 
+  grid-column-start: 3;
   grid-column-end: 5;
 }
 
 .sale {
-  background-image: url(../images/sale-category.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/sale-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 1; 
-  grid-column-end: 3; 
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .bags {
-  background-image: url(../images/bags-category.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/bags-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 3; 
-  grid-column-end: 5; 
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .womens {
-  background-image: url(../images/womens-category.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/womens-category.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 1; 
+  grid-column-start: 1;
   grid-column-end: 5;
-  
 }
 
 .lowerBrightnessFilter {
-  filter: brightness(.8);
+  filter: brightness(0.8);
   width: 100%;
 }
