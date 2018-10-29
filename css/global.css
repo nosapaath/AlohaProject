@@ -8,6 +8,7 @@ li {
 
 .headingLeft {
   font-family: "Playfair Display Italic";
+  font-style: italic;
   font-size: 2.7rem;
   margin-bottom: 20px;
 }
