@@ -146,6 +146,11 @@
 }
 
 @media all and (min-width: 1000px) {
+.hero {
+  background-size: contain;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+}
+
   .carousel-cell {
     width: 25%;
   }
