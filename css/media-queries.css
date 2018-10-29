@@ -148,6 +148,9 @@
     width: 40%;
   }
 
+  .product-name {
+    font-size: 1.8rem;
+  }
 }
 
 @media all and (min-width: 1000px) {
@@ -157,7 +160,7 @@
 }
 
   .carousel-cell {
-    width: 25%;
+    width: 30%;
   }
 
   .banner p {
