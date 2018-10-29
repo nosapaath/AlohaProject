@@ -302,3 +302,7 @@ footer {
   text-align: center;
   color: white;
 }
+
+.flickity-prev-next-button  {
+  display: none;
+}

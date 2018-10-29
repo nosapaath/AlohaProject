@@ -143,6 +143,11 @@
     text-align: left;
     display: block;
   }
+
+  .carousel-cell {
+    width: 40%;
+  }
+
 }
 
 @media all and (min-width: 1000px) {
