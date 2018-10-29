@@ -163,7 +163,7 @@ nav a:hover {
   align-items: center;
 }
 
-.view-product button:active {
+button:active {
   background: white;
   color: var(--orange-brand);
   border: 1px solid var(--orange-brand);
