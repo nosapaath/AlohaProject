@@ -163,6 +163,12 @@ nav a:hover {
   align-items: center;
 }
 
+.view-product button:active {
+  background: white;
+  color: var(--orange-brand);
+  border: 1px solid var(--orange-brand);
+}
+
 .product-name {
   color: var(--orange-brand);
   margin: 10px 0 10px 0;
@@ -176,10 +182,6 @@ nav a:hover {
   font-weight: 800;
   color: var(--lightgrey); 
   margin-bottom: 10px;
-}
-
-.view-product button {
-  width: 200px;
 }
 
 .subscribe {
@@ -296,7 +298,6 @@ footer {
   background:white
 }
 
-/* cell number */
 .carousel-cell:before {
   display: block;
   text-align: center;
