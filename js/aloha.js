@@ -15,20 +15,19 @@ $(function() {
     $("#cartCount").show();
   });
 
-  $("button, input[type='submit']").on("click", function(event) {
+  let emailCheck = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+$("button, input[type='submit']").on("click", function(event){   
     event.preventDefault();
-    if (
-      $(this)
-        .siblings()
-        .val() !== ""
-    ) {
-      var email = $(this)
-        .siblings()
-        .val();
-      alert(
-        "Thanks for subscribing! " +
-          email
-      );
-    }
-  });
+    let $Input = $(this).siblings().val();
+    let emailTest = emailCheck.test($Input);
+    console.log($Input);
+
+    if ($Input === "") {
+      alert("Please enter your email.") 
+        } else if (emailTest ) {alert("Thank you for subscribing!")
+        } else { alert("Please check your spelling and try again") }
 });
+});
+
+
+
