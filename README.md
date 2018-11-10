@@ -7,10 +7,6 @@ This is my first responsive website project for AlohaCo. an apparel website.
 Go to: https://nosapaath.github.io/AlohaProject/
 Feel free to use VsCode or any other editor to play around with my code.  
 
-### Prerequisites
-
-You will need to follow @red.academy and @nosanosir in instagram. 
-
 
 ### Instructions
 
